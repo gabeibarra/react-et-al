@@ -35,3 +35,9 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+#################
+### Custom ######
+
+# Compiled build. Let gulp handle generation of these.
+/dist/build/*
