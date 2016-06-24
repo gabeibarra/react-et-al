@@ -1,0 +1,30 @@
+{
+  "name": "react-et-al",
+  "version": "1.0.0",
+  "description": "A basic React app for d3 charting",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabeibarra/react-et-al.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabeibarra/react-et-al/issues"
+  },
+  "homepage": "https://github.com/gabeibarra/react-et-al#readme",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
