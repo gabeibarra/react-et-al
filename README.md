@@ -8,19 +8,25 @@ Might evolve into a test of live API, database, and/or Redux, and a sister Docke
 #### Instructions
 
 1. Install dependencies from package.json:
+
    ```
    $ npm install
    ```
+
    (Install gulp globally if you've never done it before:
+
    ```
    $ npm install --global gulp
    ```
+
    )
 2. Run gulp to compile React files to a script that can be called from html file.
+
    ```
    $ gulp
    ```
 3. Start server:
+   
    ```
    $ node server.js
    ```
