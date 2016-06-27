@@ -1,8 +1,12 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var ReactApp = require('./components/test_component.react');
+var TestComponent = require('./components/test_component.react');
+var d3Test = require('./components/d3_component');
 // var ReactDOMServer = require('react-dom/server');
 
+var combined = React.createElement('section', 
+	{className: 'combined'},
+	[TestComponent, d3Test]);
 
-ReactDOM.render(ReactApp,
+ReactDOM.render(combined,
   document.getElementById('react-renders-here'));

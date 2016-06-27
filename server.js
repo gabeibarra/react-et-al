@@ -1,14 +1,16 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var d3_obj = require('./src/nonreact/server_side_d3');
 
-// Serve react_js app that template needs, but in public static files dir?
+// Serve react_js app in public
 app.use(express.static(
-  path.join( __dirname + '/dist/build' )
+  path.join( __dirname + '/dist' )
 ));
 
 app.get('/hello', function(req, res){
-  res.send( 'Hello World' );
+  res.send(d3_obj());
+  //res.send( 'Hello World' );
 });
 
 app.get('/', function(req, res){

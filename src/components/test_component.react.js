@@ -1,9 +1,10 @@
 var React = require('react');
 
-var Application = React.createElement(
+var TestComponent = React.createElement(
   'h1',
-  { className: 'header' },
+  { key: 'app_ele', 
+  	className: 'header' },
   'Hello World! - React test works.'
 );
 
-module.exports = Application;
+module.exports = TestComponent;
