@@ -4,7 +4,7 @@ var TestComponent = require('./components/test_component.react');
 var d3Test = require('./components/d3_component');
 // var ReactDOMServer = require('react-dom/server');
 
-var combined = React.createElement('section', 
+var combined = React.createElement('container', 
 	{className: 'combined'},
 	[TestComponent, d3Test]);
 
