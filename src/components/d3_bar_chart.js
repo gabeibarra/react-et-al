@@ -37,12 +37,7 @@ var BarChart1 = React.createClass({
             }, n
           )]
        );
-    /*  return React.createElement('div',                             
-        { className: 'bar',
-          style: {width: x(n)+'px' }},
-        n);*/
     });
-    console.log( bars );
     return React.createElement('svg',
       { className: 'chart',
         width: width,
@@ -50,11 +45,6 @@ var BarChart1 = React.createClass({
       },
       bars
     );
-    /*/ Parent chart div.
-    return React.createElement('div',
-      { className: 'chart' },
-      bars);*/
-    
   }
 });
 module.exports = React.createElement(BarChart1, {data: data});
