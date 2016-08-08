@@ -1,9 +1,11 @@
 # react-et-al
-Testing out React with minimum setup for a d3 charting app (+Node, Express for basic server).
+Testing out React with d3 charting methods + a basic server.
 
-Repo will start with static data and minimal setup, so I can switch gears to a Clojurescript + Express + React + D3 setup with my team.
+At first I jumped from some blog posts that suggested using JSDOM, but that wasn't ideal with React so I moved to [suggestions in this article](http://blog.scottlogic.com/2015/09/03/d3-without-d3.html), where we use select functions of d3 and lean on React in place of using entirely d3 syntax/API.
 
-Might evolve into a test of live API, database, and/or Redux, and a sister Docker setup for a frontend rendering micro-service when I settle on a scalable structure here.
+I'm not a fan of JSX right now, so I started with translating his bar chart example to regular React. In the end - JSX might be more readable.
+
+Next I'm working on a line chart and an interactive visual with React logic.
 
 #### Instructions
 
