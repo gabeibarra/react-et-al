@@ -10,16 +10,22 @@
 }
 
 /* Line Chart */
-path { 
-    stroke: steelblue;
-    stroke-width: 2;
-    fill: none;
+svg {
+  border: 2px solid darkgray;
 }
-
+line.axis {
+  stroke: steelblue;
+  stroke-width: 2px;
+  fill: none;
+  shape-rendering: crispEdges;
+}
+/*
 .axis path,
 .axis line {
-    fill: none;
-    stroke: grey;
-    stroke-width: 1;
-    shape-rendering: crispEdges;
+  
 }
+.line {
+  fill: none;
+  stroke: darkorange;
+  stroke-width: 1.5px;
+}*/

@@ -41,3 +41,6 @@ jspm_packages
 
 # Compiled build. Let gulp handle generation of these.
 /dist/build/*
+
+# Mac DS_Store files snuck in
+.DS_Store
